@@ -10,6 +10,14 @@ header {
   line-height: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
 .p2 {
   text-align: right;
 }
@@ -42,7 +50,7 @@ img {
 }
 .footerLinks li {
   display: inline;
-  margin-left: 20px;
+  margin: 0 20px;
 }
 
 .footerSize {
